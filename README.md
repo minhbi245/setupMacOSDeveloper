@@ -31,14 +31,14 @@ install
 config shell profile
 laterly, do not modify ~/.zshrc, only modify ~/.bashrc
 
-touch ~/.bashrc
-echo 'source ~/.bashrc' >> ~/.zshrc
+`touch ~/.bashrc`
+`echo 'source ~/.bashrc' >> ~/.zshrc`
 
 2.3. Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 - Grant permission
-sudo chown -R $USER /Users/khanhnvm/Library/Caches/Homebrew
+`sudo chown -R $USER /Users/khanhnvm/Library/Caches/Homebrew`
 
 2.4. Version Manager
 2.4.1 Ruy
